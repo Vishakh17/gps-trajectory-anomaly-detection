@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local configuration
+.env
+.env.*
+!.env.example
+
+# Runtime data and generated model artifacts
+backend/data/raw/
+backend/data/processed/
+backend/trained_models/
+
+# Editor and OS files
+.idea/
+.vscode/
+*.swp
+Thumbs.db
+Desktop.ini
